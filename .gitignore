@@ -1,0 +1,22 @@
+# Ignore everything
+/*
+
+# Except the ./wp-content/ directory
+!wp-content
+
+# Ignore everything in the ./wp-content/ directory
+wp-content
+
+# Except the ./themes/ directory
+!themes
+
+# Ignore everything in the ./themes/ directory
+themes
+
+# Except the theme I'm building
+!missysdayoff
+
+# Include some other stuff that's helpful
+!.gitignore
+!README.md
+
