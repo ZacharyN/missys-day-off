@@ -16,13 +16,13 @@ require_once get_template_directory() . '/lib/init.php';
 // Sets up the Theme.
 require_once get_stylesheet_directory() . '/lib/theme-defaults.php';
 
-add_action( 'after_setup_theme', 'mdo_localization_setup' );
+add_action( 'after_setup_theme', 'genesis_sample_localization_setup' );
 /**
  * Sets localization (do not remove).
  *
  * @since 1.0.0
  */
-function mdo_localization_setup() {
+function genesis_sample_localization_setup() {
 
 	load_child_theme_textdomain( 'missys-day-off', get_stylesheet_directory() . '/languages' );
 
